@@ -1,0 +1,46 @@
+
+.navbar
+    width: 100%
+    padding: 1em
+    margin: auto
+    position: absolute
+    top: -5em
+    background: #5a8da9
+    display: flex
+    justify-content: space-evenly
+    align-items: center
+    box-shadow: 0px 0px 25px -10px black
+    transition-duration: 0.5s
+    animation: navbar-popup 0.5s ease-in-out normal forwards
+
+.algorithm-selector
+    margin-left: auto
+    padding: 0.5em
+    border: none
+    color: white
+    background: #77a2ba
+    font-family: 'Poppins'
+    font-weight: 500
+    font-size: 16px
+
+.algorithm-reset-button
+    margin-inline: 1em auto
+    padding: 0.75em 1.5em
+    border: none
+    border-radius: 0.5em
+    color: aliceblue
+    background: #80acc4
+    box-shadow: 0px 0px 10px -8px black
+    font-size: 16px
+    font-family: 'Rubik'
+    font-weight: 600
+    cursor: pointer
+
+
+@keyframes navbar-popup
+    0%
+        top: -5em
+        
+    100%
+        top: 0em
+        
